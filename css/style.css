@@ -987,6 +987,10 @@ footer {
         display: none;
     }
 
+    header div.right img.Cart Icon{ 
+        display: none;
+    }
+
     .left-content {
         margin-right: 70px;
         margin-left: -90px;
@@ -1007,7 +1011,6 @@ footer {
 }
 
 @media (max-width: 380px) {
-    /* Ensure the body and html take the full width and remove margins/padding */
     html, body {
         margin: 0;
         padding: 0;
@@ -1015,13 +1018,11 @@ footer {
         box-sizing: border-box;
     }
 
-    /* Main wrapper takes full width */
     .main-wrapper {
         padding: 0;
         width: 100%;
     }
 
-    /* Remove any margins or padding in the header */
     .main-header {
         margin: 0;
         padding: 0;
@@ -1035,7 +1036,6 @@ footer {
         margin-left: 25px;
     }
 
-    /* Adjust search bar to fit smaller screen */
     .search-container {
         max-width: 100%;
         margin-left: 0;
@@ -1047,7 +1047,7 @@ footer {
 
     .product-item {
         width: 100%;
-        margin-bottom: 10px; /* optional, space between items */
+        margin-bottom: 10px; 
     }
 
     .category-list li {
@@ -1055,18 +1055,15 @@ footer {
         padding: 50px;
     }
 
-    /* Footer adjustments for smaller screens */
     footer {
         padding: 0;
     }
 
-    /* Ensure footer content width fits smaller screens */
     .footer-content {
         width: 100%;
         padding: 0;
     }
 
-    /* Adjust footer list and items for 3 items per row and center alignment */
     .footer-list {
         width: 100%;
         display: flex;
@@ -1076,7 +1073,7 @@ footer {
     }
 
     .footer-list li {
-        width: 30%;  /* Adjust this to fit three items per row */
+        width: 30%;  
         margin-bottom: 10px;
         text-align: center;
     }
@@ -1085,7 +1082,6 @@ footer {
         font-size: 12px;
     }
 
-    /* Adjust footer titles for smaller screen */
     .footer-title1, .footer-title2, .footer-title3, .footer-title4, .footer-title5 {
         font-size: 13px;
     }
@@ -1094,10 +1090,9 @@ footer {
         margin-left: 100px;
     }
 
-    /* Optional: Adjust subscribe icon or other fixed elements */
     .subscribe-icon {
         position: absolute;
-        top: 80%; /* adjust based on the content layout */
+        top: 80%; 
         left: 50%;
         transform: translateX(-50%);
     }
